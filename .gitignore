@@ -1,0 +1,39 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Logs and training outputs
+logs/
+runs/
+outputs/
+checkpoints/
+ckpts/
+wandb/
+tensorboard/
+*.log
+
+# Data and model artifacts
+data/
+datasets/
+*.parquet
+*.csv
+*.tsv
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
